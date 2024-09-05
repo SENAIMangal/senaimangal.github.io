@@ -1,0 +1,31 @@
+/*
+  By Leandromeda | Leandro Gaudio Rosa
+*/
+
+@font-face {
+    font-family: "Perfect DOS VGA 437";
+    src: url(../perfect-dos-vga437.woff2) format("woff2");
+  }
+
+  body {
+    zoom: 150%;
+    background: #000;
+    font-family: "Perfect DOS VGA 437", monospace;
+    font-size: 22px;
+    color: #888;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+    transform: scale(0.6) translateY(-25%);
+  }
+
+  a {
+    text-decoration: none;
+    opacity: 75%;
+  }
+  
+  a:hover{
+    text-decoration: none;
+    opacity: 100%;
+  }

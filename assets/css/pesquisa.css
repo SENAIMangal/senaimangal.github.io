@@ -1,0 +1,10 @@
+/* Pesquisa */
+
+  input{
+    opacity: 55%;
+    }
+  input:hover{
+    opacity: 100%;
+    color: white;
+    background-color:rgb(119, 136, 252);
+    }

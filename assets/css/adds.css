@@ -1,0 +1,135 @@
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #1d1d1d #DFE9EB;
+    user-select: none;
+  }
+  
+  /* Chrome, Edge and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+    width: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #DFE9EB;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #9F9F9F;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #00aaaa;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #028181;
+  }
+  
+  .right-side {
+    float:right;
+    width: 35%;
+    padding: 1%;
+  }
+
+  img{
+    opacity: 90%;
+  }
+
+  img:hover{
+    opacity: 100%;
+  }
+
+  br:hover{
+    color:red;
+    text-decoration: solid;
+  }
+  span:hover{
+    color:red;
+    margin-left: 10px;
+    text-decoration:underline;
+  }
+  table, tr, td {
+    margin: 25px;
+    padding: 20px;
+  }
+  .table1, .tr1, .td1 {
+    margin: 0px;
+    padding: 0px;
+  }
+
+.mestres{
+  height: 150px;
+  width: 150px;
+  filter:grayscale();
+  opacity: 75%;
+  border-radius: 70%;
+}
+
+ /* Imgs */
+
+ #link{
+  height: 2%;
+  width: 2%;
+ }
+
+ /* Contraste */
+
+.light {
+  --bodybkg: #000084;
+  --btntxt: "Muito azul?";
+  --btnfg: white;
+  --btnbkg: blue;
+  --pcolor: #bbbbbb;
+  --spanc: #000084;
+  transition: all 3s;
+}
+
+.dark {
+  --bodybkg: rgb(56, 56, 56);
+  --btntxt: "Prefiro muito azul!";
+  --btnfg: white;
+  --btnbkg: red;
+  --pcolor: white;
+  --spanc: rgb(56, 56, 56);
+  transition: all 3s;
+}
+
+#contraste {
+  background-color: var(--btnbkg);
+  color: var(--btnfg);
+  border-width: 0;
+  opacity: 75%;
+}
+
+#contraste:hover {
+  background-color: var(--btnbkg);
+  color: var(--btnfg);
+  opacity: 100%;
+}
+
+#contraste:after {
+  content: var(--btntxt);
+}
+
+p {
+  color: var(--pcolor);
+}
+
+body {
+  background-color: var(--bodybkg);
+}
+.spanc{
+  color: var(--spanc);
+  text-decoration: none;
+}
